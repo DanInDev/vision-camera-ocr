@@ -43,7 +43,7 @@ type TextLine = {
   cornerPoints?: Point[];
 };
 
-type TextBlock = {
+export type TextBlock = {
   text: string;
   lines: TextLine[];
   frame?: BoundingFrame;

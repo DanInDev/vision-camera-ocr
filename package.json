@@ -50,6 +50,8 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
+  "homepage": "https://parkor.net/",
+  
   "devDependencies": {
     "@react-native-community/eslint-config": "^3.0.0",
     "@release-it/conventional-changelog": "^2.0.0",

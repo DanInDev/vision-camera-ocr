@@ -18,6 +18,6 @@ jobs:
       - name: Publish to npm registry
         run: |
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > ~/.npmrc
-          npm publish --access=restricted
+          npm publish --access=restricted || exit 1  # Fail if npm publish fails
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

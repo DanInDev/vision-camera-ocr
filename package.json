@@ -46,11 +46,11 @@
   "bugs": {
     "url": "https://github.com/ismaelsousa/vision-camera-ocr/issues"
   },
+  "homepage": "https://parkor.net/",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "homepage": "https://parkor.net/",
   
   "devDependencies": {
     "@react-native-community/eslint-config": "^3.0.0",
